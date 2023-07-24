@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -31,17 +31,25 @@
             }
         }
     </script>
+    <style>
+        .font {
+            font-family: 'EB Garamond', serif;
+        }
+        .poppins{            
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Header Section -->
-    <heagder>
-        <nav class="max-w-7xl mx-auto md:flex justify-between items-center space-y-4 text-center min-24">
+    <header>
+        <nav class="max-w-7xl mx-auto md:flex justify-between items-center space-y-4 text-center min-h-24 py-3">
             <div class="logo flex justify-center">
                 <img src="./images/logo.png" alt="">
             </div>
             <div class="menus">
-                <ul class="flex ">
+                <ul class="flex justify-center">
                     <li class="mx-2 md:mx-4"><a href="#">Home <i class="fa-solid fa-angle-right"></i></a></li>
                     <li class="mx-2 md:mx-4"><a href="#">Service <i class="fa-solid fa-angle-right"></i></a></li>
                     <li class="mx-2 md:mx-4"><a href="#">Blog <i class="fa-solid fa-angle-right"></i></a></li>
@@ -53,7 +61,29 @@
                 <button class="btn btn-primary bg-main border-0">Free Consultation</button>
             </div>
         </nav>
+
+        <!-- Banner Section -->
+
+        <div class="banner-container">
+            <div class="max-w-7xl mx-auto hero min-h-[85vh]" style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-2xl md:text-5xl font-bold font">We Provide Effective <br> Legal Solutions</h1>
+                        <p class="mb-5 poppins ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <form class="space-y-2" action="#">
+                            <input class="bg-white p-3 rounded-lg w-72" type="text" placeholder="Search your services">
+                            <input class="btn bg-main hover:bg-main text-white px-6 border-0" type="submit" value="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </header>
+
+    <!--  -->
 </body>
 
 </html>
