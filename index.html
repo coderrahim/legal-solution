@@ -85,16 +85,16 @@
 
     <!-- Services Law -->
 
-    <section class="py-12">
+    <section class="py-12 mx-3">
         <div class="service-container max-w-7xl mx-auto">
             <div class="content text-center py-12">
                 <h2 class="text-3xl font-bold mb-4">The Legal Practice Area</h2>
-                <p class="text-lg">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <p class="text-lg px-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
 
             <!-- SErvice Box -->
 
-            <div class="box-container grid md:grid-cols-2 lg:grid-cols-3">
+            <div class="box-container grid md:grid-cols-2 lg:grid-cols-3 cursor-pointer">
 
                 <div class="box text-center space-y-3 border-r-2 border-b-2 border-gray-200 p-12 hover:bg-gray-200 ">
                     <div class="img flex justify-center">
@@ -164,6 +164,45 @@
             </div>            
         </div>
     </section>
+
+    <!-- Slider Section -->
+
+    <section class="py-12 px-3">
+        <div class="slider-container max-w-7xl mx-auto">
+            <div class="content text-center py-12">
+                <h2 class="text-3xl font-bold mb-4">The Legal Practice Area</h2>
+                <p class="text-lg px-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+
+            <!-- Main Slider -->
+
+            <div class="carousel w-full rounded-md">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="/images/slider-1.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/images/slider-2.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="/images/slider-3.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
