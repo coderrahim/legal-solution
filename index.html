@@ -16,21 +16,44 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/fa4d6cfe78.js" crossorigin="anonymous"></script>
+
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        main: '#B68C5A',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
 
 <body>
-    
+    <!-- Header Section -->
+    <heagder>
+        <nav class="max-w-7xl mx-auto md:flex justify-between items-center space-y-4 text-center min-24">
+            <div class="logo flex justify-center">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="menus">
+                <ul class="flex ">
+                    <li class="mx-2 md:mx-4"><a href="#">Home <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li class="mx-2 md:mx-4"><a href="#">Service <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li class="mx-2 md:mx-4"><a href="#">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li class="mx-2 md:mx-4"><a href="#">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                    <li class="mx-2 md:mx-4"><a href="#">Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="btn btn-primary bg-main border-0">Free Consultation</button>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
